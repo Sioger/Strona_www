@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+  <meta name="description" content="" >
+  <meta name="author" content="" >
+  <title>Strona z odwołaniem do Formularza Kontaktowego</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" >
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" >
+</head>
+<body>
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Blog RK</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="ostronie.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="kontakt.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="dodajp.html">Formularz Kontaktowy</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Page content-->
+<div class="container">
+  <div class="row">
+    <!-- Contact form-->
+    <div class="col-lg-8">
+      <h2 id="formularz-kontaktowy">Formularz kontaktowy</h2>
+      <form>
+        <!-- Form fields -->
+        <div class="mb-3">
+          <label for="name" class="form-label">Imie i Nazwisko</label>
+          <span id="nazw_error" class="czerwone"></span>
+          <input type="text" class="form-control" id="name" placeholder="np. Jan Kowalski" >
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Adress Email</label>
+          <span id="email_error" class="czerwone"></span>
+          <input type="email" class="form-control" id="email" placeholder="np. adres1@temp.pl" >
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Treść wiadomości</label>
+          <textarea class="form-control" id="message" rows="5" ></textarea>
+        </div>
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary">Wyślij</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script src="js/wyszuk.js"></script>
+<script src="js/forml.js"></script>
+</body>
+</html>
